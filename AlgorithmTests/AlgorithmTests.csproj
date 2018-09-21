@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="DamerauLevenshteinDistanceTests.cs" />
     <Compile Include="HammingDistanceTests.cs" />
+    <Compile Include="JaroWinklerDistanceTests.cs" />
     <Compile Include="LevenshteinDistanceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

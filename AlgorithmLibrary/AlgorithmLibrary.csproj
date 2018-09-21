@@ -42,9 +42,11 @@
   <ItemGroup>
     <Compile Include="DamerauLevenshteinDistance.cs" />
     <Compile Include="HammingDistance.cs" />
+    <Compile Include="JaroWinklerDistance.cs" />
     <Compile Include="LevenshteinDistance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringMeasureBase.cs" />
+    <Compile Include="StringProximityBase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
