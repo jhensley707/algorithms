@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoyerMooreAlgorithmTests.cs" />
     <Compile Include="DamerauLevenshteinDistanceTests.cs" />
     <Compile Include="HammingDistanceTests.cs" />
     <Compile Include="JaroWinklerDistanceTests.cs" />

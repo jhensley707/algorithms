@@ -15,6 +15,7 @@ namespace AlgorithmTests
             public const string InputMom = "mom";
         }
 
+        [TestClass]
         public class Constructor : LevenshteinDistanceTestBase
         {
             [TestMethod]
@@ -42,6 +43,7 @@ namespace AlgorithmTests
             }
         }
 
+        [TestClass]
         public class CalculateMethodWithArmAndArm : LevenshteinDistanceTestBase
         {
             [TestMethod]
